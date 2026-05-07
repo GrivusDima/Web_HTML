@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.neon{
+    color: #00d4ff;
+}
+header{
+    color: white;
+    background: #181d35;
+    padding: 40px 0px;
+}
+.header_top{
+    background: #1a1a2e;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 28px;
+}
+nav{
+    margin-bottom: 50px;
+}
+nav ul li{
+    display: inline-block;
+    color: white;
+    margin: 0 14px;
+}
+nav ul li a{
+    color: white;
+}
