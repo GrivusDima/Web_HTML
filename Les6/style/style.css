@@ -19,7 +19,6 @@ html{
 header{
     color: white;
     background: #181d35;
-    padding: 40px 0px;
 }
 .header_top{
     background: #1a1a2e;
@@ -28,7 +27,7 @@ header{
     font-size: 28px;
     font-weight: bold;
     line-height: 42px;
-    margin-bottom: 28px;
+    padding: 28px;
 }
 nav{
     margin-bottom: 50px;
@@ -36,8 +35,110 @@ nav{
 nav ul li{
     display: inline-block;
     color: white;
-    margin: 0 14px;
+    margin: 0 14px 28px;
 }
 nav ul li a{
     color: white;
+}
+.header-color .wrapper h1{
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: normal;
+    margin: 50px;
+}
+.header-color .wrapper p{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: normal;
+}
+button{
+    display: block;
+    margin: 40px auto 40px;
+    border: none;
+    background: #01d4ff;
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+    border-radius: 4px;
+}
+.header-color .wrapper img{
+    width: 80px;
+}
+.why{
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+h2{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: normal;
+    margin: 50px;
+}
+.why_box{
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.why .wrapper article{
+    margin: 0 auto 20px;
+}
+.why_box_icon{
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+h3{
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: normal;
+    margin: 40px;
+}
+.why_box p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 28px;
+}
+.what_box{
+    max-width: 700px;
+    overflow: hidden;
+    margin: 0 auto 40px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: left;
+}
+.what_box img{
+    object-fit: cover;
+    width: 100%;
+}
+.what_box h3{
+    font-size: 28px;
+    line-height: 42px;
+    padding: 15px 30px;
+}
+.what_box p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+    padding: 10px 30px;
+}
+.what_box p.neon{
+    color: #01d4ff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+footer{
+    background: #191a2e;
+    padding: 40px 0;
+    color: white;
+    max-width: 1200px;
+}
+footer p{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
 }
